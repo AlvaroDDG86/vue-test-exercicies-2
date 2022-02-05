@@ -26,7 +26,7 @@ describe('getPokemonOptions', () => {
         expect(pokemons.length).toBe(4)
         expect(pokemons).toEqual([
             {
-                name: expect.any(Boolean),
+                name: expect.any(String),
                 id: expect.any(Number)
             },
             {
