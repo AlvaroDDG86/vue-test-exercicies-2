@@ -43,20 +43,22 @@ describe('pokemonPage', () => {
         expect(wrapper.find('pokemon-options-stub').attributes('pokemons')).toBeTruthy()
     });
 
-    test('should checkAnswer method when is correct', () => {
-        wrapper.vm.checkAnswer(pokemonsMock[1].id)
+    test('should checkAnswer method when is correct', async () => {
+        await wrapper.vm.checkAnswer(pokemonsMock[1].id)
         expect(wrapper.vm.showPokemon).toBe(true)
         expect(wrapper.vm.showAnswer).toBe(true)
 
+        expect(wrapper.find('h2').exists()).toBe(true)
         expect(wrapper.vm.message).toBe(`Oops, era ${ pokemonsMock[0].name }`)
         
     });
-
+    
     test('should checkAnswer method when is wrong', async () => {
         await wrapper.vm.checkAnswer(pokemonsMock[0].id)
         expect(wrapper.vm.showPokemon).toBe(true)
         expect(wrapper.vm.showAnswer).toBe(true)
-
+        
+        expect(wrapper.find('h2').exists()).toBe(true)
         expect(wrapper.vm.message).toBe(`Correcto, ${ pokemonsMock[0].name }`)
         
     });
