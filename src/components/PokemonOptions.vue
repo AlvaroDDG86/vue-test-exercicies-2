@@ -17,11 +17,6 @@ export default {
       type: Array,
       required: true
     }
-  },
-  methods: {
-    hola(){
-      // this.$emit()
-    }
   }
 }
 </script>
