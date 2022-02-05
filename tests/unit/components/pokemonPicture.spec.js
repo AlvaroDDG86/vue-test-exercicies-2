@@ -16,7 +16,7 @@ describe('PokemonPicture', () => {
     })
     
     test('should render the hidden image of pokemon 100', () => {
-        const img = wrapper.find('[data-testid="img-hidden"]')
+        const img = wrapper.find('img')
         // Option 1
         expect(img.attributes().src).toBe('https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/100.svg')
         expect(img.classes().includes('hidden-pokemon')).toBeTruthy() 
@@ -25,7 +25,7 @@ describe('PokemonPicture', () => {
         await wrapper.setProps({
             'showPokemon': true
         })
-        const img = wrapper.find('[data-testid="img"]')
+        const img = wrapper.find('img')
         // Option 2
         expect(img.attributes('src')).toBe('https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/100.svg')
         expect(img.classes('hidden-pokemon')).toBeFalsy() 

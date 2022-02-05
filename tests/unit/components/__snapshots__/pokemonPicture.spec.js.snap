@@ -16,7 +16,6 @@ VueWrapper {
         <img
           alt="pokemon"
           class="hidden-pokemon"
-          data-testid="img-hidden"
           src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/100.svg"
         />
       </div>
@@ -406,7 +405,6 @@ VueWrapper {
                 "el": <img
                   alt="pokemon"
                   class="hidden-pokemon"
-                  data-testid="img-hidden"
                   src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/100.svg"
                 />,
                 "key": 0,
@@ -414,7 +412,6 @@ VueWrapper {
                 "props": Object {
                   "alt": "pokemon",
                   "class": "hidden-pokemon",
-                  "data-testid": "img-hidden",
                   "key": 0,
                   "src": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/100.svg",
                 },
@@ -450,7 +447,6 @@ VueWrapper {
                 "el": <img
                   alt="pokemon"
                   class="hidden-pokemon"
-                  data-testid="img-hidden"
                   src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/100.svg"
                 />,
                 "key": 0,
@@ -458,7 +454,6 @@ VueWrapper {
                 "props": Object {
                   "alt": "pokemon",
                   "class": "hidden-pokemon",
-                  "data-testid": "img-hidden",
                   "key": 0,
                   "src": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/100.svg",
                 },
@@ -483,7 +478,6 @@ VueWrapper {
               <img
                 alt="pokemon"
                 class="hidden-pokemon"
-                data-testid="img-hidden"
                 src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/100.svg"
               />
             </div>,
@@ -545,7 +539,6 @@ VueWrapper {
           <img
             alt="pokemon"
             class="hidden-pokemon"
-            data-testid="img-hidden"
             src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/100.svg"
           />
         </div>,
@@ -651,7 +644,6 @@ VueWrapper {
           <img
             alt="pokemon"
             class="hidden-pokemon"
-            data-testid="img-hidden"
             src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/100.svg"
           />
         </div>,
@@ -711,7 +703,6 @@ VueWrapper {
     <img
       alt="pokemon"
       class="hidden-pokemon"
-      data-testid="img-hidden"
       src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/100.svg"
     />
   </div>,
